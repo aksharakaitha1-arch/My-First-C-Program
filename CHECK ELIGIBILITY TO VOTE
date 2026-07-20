@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main() {
+    int age = 19;
+
+    printf("--- IF-ELSE LAB WORK ---\n");
+    
+    if (age >= 18) {
+        printf("You are Eligible to Vote.\n");
+    } else {
+        printf("You are NOT Eligible to Vote.\n");
+    }
+
+    return 0;
+}
