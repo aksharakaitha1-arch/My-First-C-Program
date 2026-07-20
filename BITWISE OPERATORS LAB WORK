@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+	int a = 5;
+	int b = 6;
+	int and_result, or_result;
+	printf("---BITWISE OPERATORS LAB WORK---\n");
+	printf("First Number a = %d\n", a);
+	printf("Second Number b = %d\n", b);
+	and_result = a & b;
+	printf("Result of a & b (AND) is: %d\n", and_result);
+	printf("Result of a | b (OR) is: %d\n", or_result);
+	return 0;
+}
