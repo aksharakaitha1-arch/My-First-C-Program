@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int marks[3] = {90, 85, 95};
+
+    printf("--- ARRAYS LAB WORK ---\n");
+    printf("Maths Marks: %d\n", marks[0]);
+    printf("Electronics Marks: %d\n", marks[1]);
+    printf("Computer Science Marks: %d\n", marks[2]);
+
+    return 0;
+}
